@@ -1,0 +1,341 @@
+body 
+{
+    direction:ltr;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#container{
+    display : block;
+    text-align : center;
+}
+
+header{
+    display : inline-block;
+    width : 100%;
+    margin : 30px 0px 45px 0px;
+}
+
+.active {
+    color: mediumpurple;
+}
+
+#logo{
+    background-image : url(../images/HeadLogo.svg);
+    background-size : 205px;
+    width : 220px;
+    height : 80px;
+    float : left;
+    display : block;
+    background-repeat : no-repeat;
+    background-position : 0 35px;
+}
+
+nav{
+    float: right;
+    padding-top : 20px ;
+    font-family: 'Roboto Slab';
+    font-size: 13px;
+}
+
+nav ul li{
+    display: inline-block;
+    float: right;
+    padding: 0 10px;
+    line-height: 16px;
+}
+
+nav ul li a{
+    display: block;
+    color: #c0bfbf;
+    text-decoration: none;
+    text-align: center;
+    height: 30px;
+    Padding-top: 20px;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
+    -ms-transition: color 0.7s ease;
+    -o-transition: color 0.7s ease;
+    transition: color 0.7s ease;
+}
+
+nav ul li a:hover{
+    color : mediumpurple;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
+    -ms-transition: color 0.7s ease;
+    -o-transition: color 0.7s ease;
+    transition: color 0.7s ease;
+}
+
+.aw-icons{
+    font-size : 16px;
+    margin-top: -2px;
+}
+
+.pr-img {
+    background-size : 480px;
+    width: 475px;
+    height : 251px;
+    background-position : bottom;
+    display : inline-block;
+    position : relative;
+    border-radius : 5px;
+}
+
+.pr-img::after{
+    transition : opacity 0.5s;
+    border-radius : 5px;
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-position-x: -3px;
+    opacity: 0;
+}
+
+.pr-img:hover::after{
+    transition : opacity 0.5s;
+    opacity : 1;
+}
+
+.pr-shir{
+    background-image : url(../images/infographics.jpg);
+}
+
+.pr-shir::after{
+    background-image: url(../images/infographics.jpg);
+
+}
+
+.pr-poster{
+    background-image : url(../images/poster.jpg);
+}
+
+.pr-poster::after{
+    background-image: url(../images/poster.jpg);
+
+}
+.pr-final{
+    background-image : url(../images/final.jpg);
+}
+
+.pr-final::after{
+    background-image: url(../images/final.jpg);
+
+}
+
+.pr-object{
+    background-image : url(../images/object.jpg);
+    
+}
+.pr-object::after{
+    background-image: url(../images/object.jpg);
+}
+
+#about{
+    text-align: justify;
+    width: 92%;
+    margin-left: 50px;
+}
+
+#container p{
+    font-family : 'Neucha';
+    font-size : 25px;
+    color : #464545 ;
+}
+
+
+
+h1{
+    text-align : center;
+    font-size : 65px;
+    color : lightgray;
+    padding-bottom : 20px;
+    margin-top : 50px;
+    font-family: 'Special elite';
+}
+
+h2{
+    text-align : center;
+    font-family : 'Neucha';
+    font-size : 25px;
+    color : #464545 ;
+}
+
+#botlogo{
+    padding : 20px 0px 55px 0px;
+}
+
+hr{ 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #d3d3d3, #f0f0f0);
+    margin-top : 80px;
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+}
+
+.link{
+    text-decoration : none;
+    color : mediumpurple;
+    font-weight : 700;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.link:hover{
+    color : rebeccapurple;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.round{
+    border-radius : 10px
+}
+
+.p-text{
+    text-align : justify;
+}
+
+#container-courses{
+    text-align:center
+}
+
+#container-courses p{
+    text-align : justify;
+    font-family : 'Neucha';
+    font-size : 25px;
+    color : #464545 ;
+}
+
+#video{
+    margin-top : 20px;  
+}
+
+#showme{
+    padding-top: 40px;
+    font-family : 'Neucha';
+    text-align: left;
+}
+
+#showme a{
+    text-decoration : none;
+}
+
+#contact a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    font-family: roboto slab;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+#contact a:hover{
+    color : mediumpurple;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+/*Contact Page Form*/
+
+
+.myForm {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "roboto slab";
+}
+
+.myForm label{
+    text-align: left;
+    margin:6px 0 6px 0;
+    display:block;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.myForm input[type=text],textarea,select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    font-family : 'Roboto Slab';  
+}
+
+
+.myForm input[type=text]:focus,.myForm textarea:focus,.myForm select:focus{
+    -moz-box-shadow: 0 0 8px mediumpurple;
+    -webkit-box-shadow: 0 0 8px mediumpurple;
+    box-shadow: 0 0 8px mediumpurple;
+    border: 1px solid #d3d3d3;
+}
+
+.myForm .field-long{
+    width: 100%;
+}
+
+.myForm .field-select{
+    width: 100%;
+}
+
+.myForm .field-textarea{
+    height: 100px;
+}
+
+.myForm input[type=submit]{
+    font-family: roboto slab;
+    background-color: mediumpurple;
+    padding: 8px 15px 8px 15px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    width: 100%;
+    cursor:pointer;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.myForm input[type=submit]:hover{
+    background-color: rebeccapurple;
+}
+
+.myForm .required{
+    color:mediumpurple;
+}
+
+#feedback{
+    font-family: 'Roboto Slab';
+    color: mediumpurple;
+    font-size: 17px;
+    margin-top: 5px;
+    padding: 6px;
+    font-weight: 600;
+}
